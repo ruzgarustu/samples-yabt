@@ -53,4 +53,7 @@ There is an unsophisticated authentication via a hard-coded API key to run the A
 
 From here, the back-end is all yours.
 
+Note: Do not forget to change the Certificate in appsettings.json if you are using a client certificate.
+Convert .pfx file via openssh to Base64 string and add this string as one line as the value of "Certificate" in appsettings.json.
+
 Check out [notes on the front-end](../front-end/READM.md) if you'd like to run Angular UI as well.
